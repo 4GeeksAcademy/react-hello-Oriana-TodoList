@@ -29,7 +29,7 @@ const Home = () => {
 		<div className="container ">
 
 			<div className="mt-2 text-center ">
-				<h1>My todo list</h1>	
+				<p>todos</p>	
 			</div>
 		
 			<div className="m-2">
@@ -54,11 +54,11 @@ const Home = () => {
 						
 						</li>				
 					))}
+					
+					<li className="d-flex flex-row m-3">{addTodo.length} Pending tasks</li>
 				     
 				</ul>
 			</div>
-
-			<div className="d-flex flex-row m-2">{addTodo.length} Pending tasks</div>
 
 		</div>
 
