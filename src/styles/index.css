@@ -25,5 +25,11 @@ p{
     ;
 }
 
+li:hover{
+    background-color: rgba(220, 216, 216, 0.995);
+    color: rgb(0, 0, 0);
+}
 
-
+button :hover{
+    color: rgb(6, 6, 6);
+}

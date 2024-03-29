@@ -38,14 +38,14 @@ const Home = () => {
 				onKeyDown={handleKeyDown}/>
 					
 
-				<ul class="list-group list-group-flush">
+				<ul class=" list-group list-group-flush">
 			
 					{addTodo.map ((item, index) => (
 						
 
-						<li class=" list-group-item d-flex justify-content-between alaing-items-centeralign-items-center mt-4 ">
+						<li class="list list-group-item d-flex justify-content-between alaing-items-centeralign-items-center mt-4 ">
 							{item}
-							<button className="btn-close" onClick={() => setAddTodo(
+							<button className="btn-close btn-close-white"onClick={() => setAddTodo(
 								addTodo.filter(
 									(t,curretIndex) => index != curretIndex
 								))}></button>
@@ -55,7 +55,7 @@ const Home = () => {
 						</li>				
 					))}
 					
-					<li className="d-flex flex-row m-3">{addTodo.length} Pending tasks</li>
+					<div className="d-flex flex-row m-3">{addTodo.length} Pending tasks</div>
 				     
 				</ul>
 			</div>
