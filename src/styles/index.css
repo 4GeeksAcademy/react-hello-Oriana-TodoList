@@ -1,12 +1,26 @@
+body{
+    background-image: url(https://fastly.picsum.photos/id/20/3670/2462.jpg?hmac=CmQ0ln-k5ZqkdtLvVO23LjVAEabZQx2wOaT4pyeG10I);
+    background-image: no-repeat;
+    background-size: cover;
+    margin:0 auto;
+}
 
-/* 
-
-    You can write your own styles here...
+.container{
+    margin-top: 250px;
+    background-color:white;
+    width: 650px;
+    box-shadow: 15px 15px 10px white;
+    border: white 8px outset ;
     
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+
+
+h1{
+    color: black;
+    font-family: cursive;
+}
+
+
+
